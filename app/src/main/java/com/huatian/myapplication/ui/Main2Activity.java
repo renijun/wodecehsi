@@ -17,5 +17,6 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         dev=new DEV();
         dev.getDev();
+        dev.setDev("");
     }
 }
